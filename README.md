@@ -23,7 +23,7 @@ ages– the only difference is the light source. For example, the sphere in sphe
  • You may NOT assume that the light sources are of equal intensities. This means that
  you need to recover not only the directions of the light sources but also their intensities.
 
-#Program 1 
+## Program 1 
 
  First find the location of the sphere and its radius. For this purpose
  I will use the image sphere0, which is taken using many light sources (so that the
@@ -44,7 +44,7 @@ ages– the only difference is the light source. For example, the sphere in sphe
  x-coordinate of the center, the y-coordinate of the center, and the radius of the circle,
  separated by a space.
 
-#Program 2
+## Program 2
 
  Now we need to compute the directions and intensities of the light sources. For
  this purpose I am using the images sphere1.pgm ... sphere3.pgm. We need to
@@ -71,7 +71,7 @@ ages– the only difference is the light source. For example, the sphere in sphe
  the x-, y-, and z-components (separated by a space character) of the vector computed
  for light source i.
 
-#Program 3
+## Program 3
 
  Now we are ready to compute the surface normals of the object. The program
  s3 will, given 3 images of an object, computes the normals to that objects surface as well
